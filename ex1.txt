@@ -1,0 +1,30 @@
+01) 
+a) git init: comando utilizado para inciar um repositório a partir de um diretório
+com dados.
+
+b) git clone: Comando utilizado para inciar um repositório a partir de um outro já
+existente. Praticamente, vai copiar o repositorio já existente para trablhar em cima dele.
+
+c) git branch: Comando utilizado para listar todas as branches existentes em um repositório.
+
+d) git checkout: Comando utilizado para trocar para uma branch ou para criar uma nova ao adicionarmos
+um "-b".
+
+e) git fetch: Esse comando serve para buscar as alterações mais recentes da branch atual no repositório remoto.
+
+f) git pull: Serve para buscar alterações do repositório remoto e incorporá-las ao repositorio local.
+
+g) git add: Server para adicionar as alterações do codigo do "Working" para o "staging".
+
+h) git commit: Serve para adicionar as alterações do codigo do "staging" para o "Local".
+
+i) git push: Serve para adicionar as alterações do codigo do "Local" para o "Remote", nesse caso
+para o github.
+
+02)
+O git fetch é usado para buscar os commits do repositorio remoto e adicionar ao local sem necessáriamente
+afetar o codigo. Entretanto, para alterar definitivamente o codigo local, será necessário fazer um "merge".
+
+O git pull faz isso, é como se estivesse dando um git fetch e em seguida um git merge.
+
+
